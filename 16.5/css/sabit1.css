@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-middle{
+    display: flex;
+    justify-content:space-between;
+}
+.header{
+    padding: 15px 0;
+}
+.header button{
+    padding: 12px 15px;
+    background-color: rgb(179, 29, 29);
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.header button:hover{
+    background-color: crimson;
+}
+.build{
+    background: url(../foto/bg-masthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    padding: 15em 0;
+}
+.build h1{
+    font-size: 3.5em;
+    color: #ffffff;
+}
+.build input{
+    padding: 12px 30px;
+    width: 25%;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    
+}
+.build button{
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    background-color: blue;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.responsive .res-all{
+    display: flex       ;
+}
+.responsive .res-item{
+    width: 33.333%;
+    text-align: center;
+}
+.responsive .res-item i{
+    font-size: 2em;
+}
